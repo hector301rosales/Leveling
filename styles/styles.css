@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Telegrama;
+    src: url("../Fonts/Telegrama\ Render/Telegrama Render.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url("../Fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("../Fonts/Roboto/Roboto-Regular.ttf");
+}
+/*---------------------navbar-----------------------------*/
+#nav-bar {
+    color: #000;
+    border-bottom: 2px solid;
+}
+
+#brand-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    padding-right: 5vw;
+}
+
+#title {
+    font-family: Telegrama;
+    color: inherit;
+    font-size: 2rem;
+}
+
+#L {
+    color: #50e3c2;
+}
+
+.nav-link {
+    font-family: Roboto-Bold;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+/*------------------------------------------------------------------*/
+
+/*------------------------main--------------------------------------*/
+
+/*---------------------------section1-------------------------------*/
+#section1 {
+    width: 100%;
+    margin-right: 0px;
+}
+
+#slogan {
+    padding-top: 2rem;
+    font-family: Roboto-Bold;
+    font-size: 2rem;
+    color: #676565;
+}
+
+.image{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#logo-leveling {
+    max-width: 300px;
+}
+
+.subtitle {
+    font-family: Roboto-Bold;
+    font-size: 2.5rem;
+}
+
+#description, .description{
+    text-align: justify;
+    font-family: Roboto-Regular;
+    font-size: 2rem;
+    max-width: 75%;
+}
+/*---------------------------------------------------------------*/
+
+/*-----------------section2--------------------------------------*/
+
+#section2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 70vh;
+    align-items: center;
+    background-color: #c9d5ff;
+}
+
+#reasons-div {
+    max-width: 75%;
+}
+
+#section2-title {
+    font-family: Roboto-Bold;
+    font-size: 2rem;
+    width: 100vw;
+}
+
+.section2-text {
+    font-family: Roboto-Regular;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    list-style: circle;
+}
+
+.section2-nosotros-text {
+    font-family: Roboto-Regular;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+/*------------------------------------------------------------------*/
+
+/*--------------------------section3--------------------------------*/
+#section3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 80%;
+    align-items: center;
+}
+
+.section3-text {
+    font-family: Roboto-Regular;
+    font-size: 2rem;
+}
+
+/*------------------------------------------------------------*/
+
+/*-----------------------footer-------------------------------*/
+
+#footer {
+    border-top: 2px solid;/* 
+    width: 100vw; */
+}
+
+.footer-text {
+    font-family: Roboto-Bold;
+    font-size: 1.5rem;
+}
+
+/*-------------------------------------------------------------*/
+
+/*------------------media queries------------------------------*/
+
+@media(max-width: 800px){
+    #slogan{
+        font-size: 5vw;
+    }
+
+    #logo-leveling {
+        max-width: 200px;
+    }
+
+    #description, .description{
+        font-size: 5vw;
+        max-width: 100%;
+    }
+
+    #reasons-div {
+        max-width: 100%;
+    }
+
+    .section2-text{
+        font-size: 5vw;
+    }
+
+    .section2-nosotros-text{
+        font-size: 5vw;
+    }
+
+    #section3{
+        max-width: 100%;
+    }
+
+    .section3-text{
+        font-size: 5vw;
+    }
+
+    .footer-text{
+        text-align: left;
+    }
+}
