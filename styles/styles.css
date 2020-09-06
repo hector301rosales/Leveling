@@ -21,11 +21,11 @@
 #brand-div {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .link {
-    padding-right: 5vw;
+    padding-left: 5vw;
 }
 
 #title {
@@ -51,7 +51,7 @@
 /*---------------------------section1-------------------------------*/
 #section1 {
     width: 100%;
-    margin-right: 0px;
+    padding-top: 60px;
 }
 
 #slogan {
@@ -88,7 +88,7 @@
 #section2 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    min-height: 70vh;
+    /* min-height: 10vh; */
     align-items: center;
     background-color: #c9d5ff;
 }
@@ -126,9 +126,13 @@
     align-items: center;
 }
 
+.icon-img {
+    max-width: 200px;
+}
+
 .section3-text {
     font-family: Roboto-Regular;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 /*------------------------------------------------------------*/
@@ -136,8 +140,9 @@
 /*-----------------------footer-------------------------------*/
 
 #footer {
-    border-top: 2px solid;/* 
-    width: 100vw; */
+    width: 100%;
+    padding-top: 1rem;
+    border-top: 2px solid;
 }
 
 .footer-text {
