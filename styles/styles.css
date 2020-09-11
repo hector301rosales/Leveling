@@ -73,6 +73,7 @@
 #section1 {
     width: 100%;
     padding-top: 60px;
+    margin-bottom: 3rem;
 }
 
 #slogan {
@@ -101,6 +102,10 @@
     font-family: Roboto-Regular;
     font-size: 2rem;
     max-width: 75%;
+}
+
+#search-form {
+    padding-top: 2rem;
 }
 /*---------------------------------------------------------------*/
 
@@ -140,10 +145,11 @@
 
 /*--------------------------section3--------------------------------*/
 #section3 {
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
     max-width: 80%;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .icon-img {
@@ -162,6 +168,7 @@
 /*-----------------------------section4---------------------------*/
 #section4 {
     padding-top: 2rem;
+    margin-bottom: 3rem;
 }
 .form-container {
     max-width: 75%;
@@ -186,6 +193,15 @@
     font-family: Roboto-Bold;
     font-size: 1.5rem;
 }
+
+#filter-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-btn {
+    max-width: 300px;
+}
 /*------------------------------------------------------------*/
 
 /*-----------------------footer-------------------------------*/
@@ -201,7 +217,12 @@
     font-size: 1.2rem;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 /*-------------------------------------------------------------*/
+
 
 /*------------------media queries------------------------------*/
 

@@ -1,0 +1,99 @@
+/*------------------------------Academia--------------------------------*/
+#mi-academia {
+    padding-left: 5%;;
+}
+
+.academia-div{
+    margin-bottom: 3rem;
+    display: flex;
+    overflow-x: auto;
+    color: #000;
+}
+
+.academia-img {
+    height: 150px;
+}
+
+.academia-link {
+    margin-right: 5rem;
+    color: inherit;
+}
+
+.academia-link:hover{
+    text-decoration: none;
+}
+
+.academia-title {
+    font-family: Roboto-Bold;
+    font-size: 2rem;
+}
+
+.academia-text {
+    font-family: Roboto-Bold;
+    font-size: 1.5rem;
+}
+/*--------------------------------------------------------------------------------*/
+
+/*---------------------------Estilos academias------------------------------------*/
+    /*---------------------Banner-------------------*/
+.academia-header{
+    background-color:#AA1C47;
+    min-height: 300px;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.banner-text {
+    font-family: Roboto-Bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.academia-logo {
+    max-height: 300px;
+}
+
+#linked {
+    height: 3rem;
+}
+
+#avales-div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-aval {
+    background-color: #fff;
+    padding: 3px;
+    height: 5rem;
+}
+
+#aval-center {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+    /*----------------------------------------------*/
+
+.oferta-div {
+    padding-top: 1rem;
+}
+
+.oferta-text {
+    font-family: Roboto-Bold;
+    font-size: 1.5rem;
+}
+
+.img-oferta {
+    max-height: 200px;
+}
+
+.oferta-img-div {
+    justify-content: center;
+}
+
+@media(max-width: 800px){
+    .academia-header {
+        padding: 1rem 0rem 1rem 0rem;
+    }
+}

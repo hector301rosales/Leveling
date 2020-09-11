@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
     <link rel="icon" href="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/favicon.svg" sizes="any" type="image/svg+xml">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <title>Nosotros</title>
+    <link rel="stylesheet" href="./styles/academias.css">
+    <title>Leveling</title>
 </head>
-<body>
+<body>    
     <nav id="nav-bar" class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
         <div class="container">
             <a href="./index.html" class="navbar-brand" id="title">LEVE<span id="L">L</span>ING</a>
@@ -56,37 +58,75 @@
             </div>
         </div>
     </nav>
-    <main class="container-fluid">
-        <section id="section1">
-            <P id="slogan" class="text-center">Sobre nosotros...</P>
-            <figure>
-                <img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/logo01.svg" alt="Logo leveling" id="logo-leveling" class="img-fluid mx-auto d-block image">
-            </figure>
-            <p id="description" class="mx-auto d-block">Leveling es la plataforma de estudios online hecha a tu medida, con base en Ecuador y aterrizados a nuestra realidad y la realidad de las empresas. Brindamos los mejores cursos, nivelaciones, actualizaciones de conocimiento con academias acreditadas y certificaciones internacionales.</p>
-            
-            <h2 class="subtitle text-center">Misión</h2>
-
-            <p class="mx-auto d-block description">Proveer educación y certificación con los mejores Educadores del Ecuador en una plataforma en línea de validez y calidad internacional de acuerdo a los objetivos de contratación de las empresas</p>
-
-            <h2 class="subtitle text-center">Visión</h2>
-
-            <p class="mx-auto d-block description">La visión de Leveling es ser la plataforma de ayuda online hecha a tu medida, con bases en ecuador y aterrizadas en nuestra realidad y la de las empresas, brindamos los mejores cursos, nivelaciones, actualizaciones de conocimientos con academias acreditadas y certificaciones internacionales.</p>
-        </section>
-        <section id="section2" class="row">
-            <p id="section2-title" class="text-center">Nuestros Valores</p>
-            <div id="reasons-div" class="row container-fluid mx-auto">
-                <ul class="col list-unstyled">
-                    <li class="section2-nosotros-text text-center">Responsabilidad</li>
-                    <li class="section2-nosotros-text text-center">Puntualidad</li>
-                    <li class="section2-nosotros-text text-center">Entrega</li>
-                </ul>
-                <ul class="col list-unstyled">
-                    <li class="section2-nosotros-text text-center">Compromiso</li>
-                    <li class="section2-nosotros-text text-center">Calidez</li>
-                    <li class="section2-nosotros-text text-center">Calidad</li>
-                </ul>
+    <main class="container-fluid"  style="padding-top: 70px;">
+        <div class="academia-header row" style="border: ;">
+            <div class="col-12 col-lg-2">
+                <p class="text-center banner-text">Mi Academia</p>
+                <figure>
+                    <img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/academy.jpg" alt="" class="img-fluid academia-logo mx-auto d-block">
+                </figure>
             </div>
-        </section>
+            <div class="col">
+                <div>
+                    <p class="banner-text text-right">Sube tu certificado a LinkedIn <span><img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/linkedin-tile.svg" alt="" id="linked"></span></p>
+                </div>
+                <p class="banner-text">Tu academia favorita aquí...</p>
+                <p class="banner-text">"Siempre innovando ahora estamos en leveling para ofrecerte la mejor educación con la mejor tecnología..."</p>
+                <p class="banner-text">Recibe tu certificado avalado por:</p>
+                <div id="avales-div">
+                    <figure>
+                        <img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/academy.jpg" alt="" class="img-fluid logo-aval">
+                    </figure>
+                    <figure id="aval-center">
+                        <img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/logo01.svg" alt="" class="img-fluid logo-aval">
+                    </figure>
+                    <figure>
+                        <img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/secretaria-tecnica.png" alt="" class="img-fluid logo-aval">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="oferta-div">
+            <p class="oferta-text">Nuestra oferta de certificaciones:</p>
+            <div class="container-fluid row">
+                <figure class="oferta-img-div col-md-6 col-lg-4">
+                    <a href="#">
+                        <img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/pitagoras.jpg" alt="" class="img-fluid img-oferta mx-auto d-block">
+                        <figcaption class="oferta-text text-center">Aprende el teorema de Pitágoras</figcaption>
+                    </a>
+                </figure>
+                <figure class="oferta-img-div col-md-6 col-lg-4">
+                    <a href="#">
+                        <img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/programacion.jpg" alt="" class="img-fluid img-oferta mx-auto d-block">
+                        <figcaption class="oferta-text text-center">Fundamentos de Programación</figcaption>
+                    </a>
+                </figure>
+                <figure class="oferta-img-div col-md-6 col-lg-4">
+                    <a href="#">
+                        <img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/math.jpg" alt="" class="img-fluid img-oferta mx-auto d-block">
+                        <figcaption class="oferta-text text-center">Matemáticas de los campos cuánticos del neutrino</figcaption>
+                    </a>
+                </figure>
+                <figure class="oferta-img-div col-md-6 col-lg-4">
+                    <a class="oferta-link" href="#">
+                        <img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/quimica.jpg" alt="" class="img-fluid img-oferta mx-auto d-block">
+                        <figcaption class="oferta-text text-center">Nomenclatura Química</figcaption>
+                    </a>
+                </figure>
+                <figure class="oferta-img-div col-md-6 col-lg-4">
+                    <a href="">
+                        <img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/peroxidos.jpg" alt="" class="img-fluid img-oferta mx-auto d-block">
+                        <figcaption class="oferta-text text-center">Formulación de Peróxidos</figcaption>
+                    </a>
+                </figure>
+                <figure class="oferta-img-div col-md-6 col-lg-4">
+                    <a href="#">
+                        <img src="./Imagenes LeveLing-20200901T215300Z-001/Imagenes LeveLing/quimica2.jpg" alt="" class="img-fluid img-oferta mx-auto d-block">
+                        <figcaption class="oferta-text text-center">Experimientos químicos</figcaption>
+                    </a>
+                </figure>
+            </div>
+        </div>
     </main>
     <footer id="footer" class="container-fluid">
         <div class="row">
@@ -103,10 +143,11 @@
                 <li class="text-md-right footer-text">Leveling 2020 &#169</li>
             </ul>
         </div>
-        
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+    </script>
 </body>
 </html>
